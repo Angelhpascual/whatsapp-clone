@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Sidebar from "./componnets/Sidebar";
+import Chat from "./componnets/Chat";
 
 function App() {
   //BEM naming convention
@@ -8,7 +9,7 @@ function App() {
     <div className="app">
       <div className="app__body">
         <Sidebar />
-        {/* Chat */}
+        <Chat />
       </div>
     </div>
   );
