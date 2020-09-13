@@ -22,6 +22,7 @@
 }
 
 .sidebar__searchContainer > input {
+  outline: none;
   border: none;
   margin-left: 10px;
 }
