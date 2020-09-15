@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Sidebar from "./componnets/Sidebar";
-import Chat from "./componnets/Chat";
+import Sidebar from "./components/Sidebar";
+import Chat from "./components/Chat";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Login from "./componnets/Login";
+import Login from "./components/Login";
 import { useStateValue } from "./StateProvider";
 
 function App() {
