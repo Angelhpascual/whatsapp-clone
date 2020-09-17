@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home__index">
       <h1>
-        Welcome to Whatsapp-clone by
+        Welcome to Whatsapp-Clone by
         <br />
         <span>angelhpascual</span>
       </h1>
