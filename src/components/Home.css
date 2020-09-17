@@ -1,0 +1,16 @@
+.home__index {
+  flex: 0.65;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.home__index > h1 > span {
+  color: lightgreen;
+}
+
+.home__index > .MuiSvgIcon-root {
+  color: lightgreen;
+  height: 50px;
+  width: 50px;
+}

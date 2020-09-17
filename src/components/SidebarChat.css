@@ -9,6 +9,10 @@
   background-color: #ebebeb;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 .sidebarChat__info > h2 {
   font-size: 16px;
   margin-bottom: 8px;
