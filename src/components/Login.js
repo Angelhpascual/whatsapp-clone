@@ -27,7 +27,7 @@ function Login() {
           alt="Whatsapp-Logo"
         />
         <div className="login__text">
-          <h1>Sign in to Whatsapp</h1>
+          <h1>Sign in to React-Chat</h1>
         </div>
         <Button onClick={signIn}>Sign in with Google</Button>
       </div>

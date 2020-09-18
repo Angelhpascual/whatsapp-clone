@@ -5,12 +5,10 @@
   text-align: center;
 }
 
-.home__index > h1 > span {
-  color: lightgreen;
+.home__header {
+  font-size: 40px;
 }
 
-.home__index > .MuiSvgIcon-root {
-  color: lightgreen;
-  height: 50px;
-  width: 50px;
+.home__creator {
+  color: green;
 }

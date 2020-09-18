@@ -25,7 +25,7 @@ function Chat() {
 
   const sendMessage = (e) => {
     e.preventDefault();
-    console.log("you typed ==>", input);
+
     db.collection("rooms").doc(roomId).collection("messages").add({
       message: input,
       name: user.displayName,
@@ -61,7 +61,7 @@ function Chat() {
         <div className="chat__headerInfo">
           <h3>{roomName}</h3>
           <p>
-            last seen {""}
+            Last seen {""}
             {new Date(
               messages[messages.length - 1]?.timestamp?.toDate()
             ).toUTCString()}

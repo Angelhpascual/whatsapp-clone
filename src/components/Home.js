@@ -1,17 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
-import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 
 function Home() {
   return (
     <div className="home__index">
-      <h1>
-        Welcome to Whatsapp-Clone by
+      <h1 className="home__header">
+        Welcome to my <br /> React-Chat
         <br />
-        <span>angelhpascual</span>
+        <br /> by <br />
+        <span className="home__creator">angelhpascual</span>
       </h1>
-      <h1>Choose a room from the list in the sidebar</h1>
-      <ArrowBackIcon />
     </div>
   );
 }
